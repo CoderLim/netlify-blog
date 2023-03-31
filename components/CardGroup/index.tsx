@@ -20,7 +20,7 @@ export default function CardGroup(props: CardGroupProps) {
       {/* <Typography.Title type="h2">{data.title}</Typography.Title> */}
       <p className="p-4">{data.title}</p>
 
-      <Row gutter={16}>
+      <Row gutter={[16, 16]}>
         {data.children.map((info) => {
           return (
             <Col span={6} key={info.title}>

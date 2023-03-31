@@ -3,7 +3,7 @@ import React from 'react';
 import data from './data';
 import CardGroup from '../../components/CardGroup';
 
-const Home = () => {
+const Data = () => {
   return (
     <div>
       {data.map((group) => (
@@ -13,4 +13,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default Data;

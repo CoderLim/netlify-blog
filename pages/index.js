@@ -6,6 +6,7 @@ import Home from './home';
 import About from './about';
 import LogoImage from '../images/logo.png';
 import Tool from './tool';
+import Data from './data';
 
 const { Header, Content, Sider } = Layout;
 
@@ -17,6 +18,10 @@ const topMenuData = [
   {
     key: 'tool',
     label: '效率工具',
+  },
+  {
+    key: 'data',
+    label: '数据查询',
   },
   {
     key: 'about',
@@ -53,6 +58,10 @@ const App = () => {
         />
         <Avatar
           icon={<Image src={LogoImage} alt="logo" width={42} height={42} />}
+          className="cursor-pointer"
+          onClick={() =>
+            window.open('https://juejin.cn/user/720905151979544', '_blank')
+          }
         />
       </Header>
       <Layout>
@@ -81,6 +90,7 @@ const App = () => {
           >
             {activeMenu === 'home' ? <Home /> : null}
             {activeMenu === 'tool' ? <Tool /> : null}
+            {activeMenu === 'data' ? <Data /> : null}
             {activeMenu === 'about' ? <About /> : null}
           </Content>
         </Layout>

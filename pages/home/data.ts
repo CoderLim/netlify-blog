@@ -1,4 +1,3 @@
-
 const data = [
   {
     title: '最新资讯',
@@ -6,13 +5,12 @@ const data = [
       {
         title: 'HackerNews',
         href: 'https://news.ycombinator.com/',
-        description: '一些质量比较高的信息，涉及到各个方面',
+        description: '不仅局限于技术，提供了很有价值的信息',
       },
       {
         title: 'bestofjs',
         href: 'https://bestofjs.org/',
-        description:
-          'Check out the most popular open-source projects and the latest trends about the web platform and Node.js.',
+        description: '介绍了流行的开源项目，Web 趋势',
       },
     ],
   },
@@ -27,8 +25,7 @@ const data = [
       {
         title: 'dev.to',
         href: 'https://dev.to/',
-        description:
-          'A constructive and inclusive social network for software developers. With you every step of your journey.',
+        description: '国外程序员在讨论什么，这里有答案',
       },
       {
         title: 'v2ex',
@@ -54,17 +51,12 @@ const data = [
       {
         title: '阿里妈妈前端快爆',
         href: 'https://www.zhihu.com/column/mm-fe',
-        description: '阮一峰大佬的博客',
+        description: '看看有哪些新鲜事',
       },
       {
-        title: 'css trick',
+        title: 'CSS Trick',
         href: 'https://css-tricks.com/',
-        description: '阮一峰大佬的博客',
-      },
-      {
-        title: 'caniuse',
-        href: 'https://caniuse.com/',
-        description: '查看前端特性的兼容性，也可查看有哪些最新特性',
+        description: '专注于 CSS 的平台，内容还不错',
       },
     ],
   },
@@ -73,13 +65,18 @@ const data = [
     children: [
       {
         title: 'MDN',
-        href: 'https://juejin.cn/',
-        description: '国内比较有影响力的技术社区',
+        href: 'https://developer.mozilla.org/zh-CN/',
+        description: 'Web 技术文档，包含 HTML、CSS、Javascript',
       },
       {
-        title: 'Ecma',
+        title: 'ecma262',
         href: 'https://tc39.es/ecma262/',
-        description: '国内比较有影响力的技术社区',
+        description: '最新最准确的 javascript 说明',
+      },
+      {
+        title: 'caniuse',
+        href: 'https://caniuse.com/',
+        description: '查看特性的兼容性，也可以看到最新特性有哪些',
       },
     ],
   },
