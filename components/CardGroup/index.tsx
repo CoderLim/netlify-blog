@@ -29,7 +29,7 @@ export default function CardGroup(props: CardGroupProps) {
               <Card
                 cover={
                   <img
-                    className="hover:sepia"
+                    className="contrast-75 hover:contrast-100"
                     alt="头图"
                     src={getSeriesImageURL(index, data.imgSeed)}
                   />
@@ -38,7 +38,10 @@ export default function CardGroup(props: CardGroupProps) {
                 className="cursor-pointer"
                 // style={{ height: 150 }}
               >
-                <Card.Meta title={info.title} description={info.description} />
+                <Card.Meta
+                  title={<span className="text-2xl">{info.title}</span>}
+                  description={info.description}
+                />
               </Card>
             </Col>
           );
