@@ -1,0 +1,12 @@
+{
+  "recommendations": [
+    "editorconfig.editorconfig",
+    "dbaeumer.vscode-eslint",
+    "jpoissonnier.vscode-styled-components",
+    "drknoxy.eslint-disable-snippets",
+    "wix.vscode-import-cost",
+    "eg2.vscode-npm-script",
+    "wayou.vscode-todo-highlight",
+    "esbenp.prettier-vscode"
+  ]
+}
