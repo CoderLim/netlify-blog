@@ -1,6 +1,7 @@
 import React, { CSSProperties } from 'react';
 import { Card, Row, Col, Typography } from 'antd';
 import { SiteGroupData } from '../../types/index';
+import { getSeriesImageURL } from '../../utils/common';
 
 interface CardGroupProps {
   data: SiteGroupData;
@@ -17,19 +18,27 @@ export default function CardGroup(props: CardGroupProps) {
 
   return (
     <div key={data.title} {...others}>
-      {/* <Typography.Title type="h2">{data.title}</Typography.Title> */}
-      <p className="p-4">{data.title}</p>
+      <Typography.Title level={4} style={{ color: '#fff' }}>
+        {data.title}
+      </Typography.Title>
 
-      <Row gutter={[16, 16]}>
-        {data.children.map((info) => {
+      <Row gutter={[60, 60]}>
+        {data.children.map((info, index) => {
           return (
             <Col span={6} key={info.title}>
               <Card
-                title={<span>{info.title}</span>}
+                cover={
+                  <img
+                    className="hover:sepia"
+                    alt="头图"
+                    src={getSeriesImageURL(index, data.imgSeed)}
+                  />
+                }
                 onClick={() => handleCardClick(info.href)}
-                className="cursor-pointer hover:text-slate-500"
+                className="cursor-pointer"
+                // style={{ height: 150 }}
               >
-                {info.description}
+                <Card.Meta title={info.title} description={info.description} />
               </Card>
             </Col>
           );

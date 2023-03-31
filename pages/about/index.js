@@ -2,7 +2,7 @@ import React from 'react';
 
 const About = () => {
   return (
-    <div className="text-lg leading-7">
+    <div className="text-lg leading-7 text-white">
       <p>
         大家好，我是探险家火焱。这是我的
         <a
@@ -15,7 +15,6 @@ const About = () => {
         </a>
         ，欢迎关注。
       </p>
-      <p>本站点持续更新中。</p>
     </div>
   );
 };

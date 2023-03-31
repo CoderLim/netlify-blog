@@ -7,7 +7,7 @@ class MyDocument extends Document {
       <Html lang="en" className="theme-compiled h-full">
         <Head />
         <body
-          className={`antialiased text-lg bg-white dark:bg-gray-900 dark:text-white leading-base h-full`}
+          className={`antialiased text-lg dark:bg-gray-900 dark:text-white leading-base h-full`}
         >
           <Main />
           <NextScript />

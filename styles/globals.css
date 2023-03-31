@@ -12,11 +12,53 @@ h6 {
   font-family: var(--font-primary);
 }
 
+html {
+  --featured-img: linear-gradient(180deg, #fff, #262626);
+  background-color: #262626;
+  background-position: top 58px center;
+  background-repeat: no-repeat;
+  background-image: radial-gradient(
+      50% 50% at top center,
+      rgba(0, 0, 0, 0.66),
+      #262626
+    ),
+    var(--featured-img);
+  background-size: 120% 2000px, 100% 2000px;
+}
+
 body {
   font-family: var(--font-secondary);
 }
 
+/**
+ *
+ */
+
 #__next {
   height: 100%;
   overflow: scroll;
+}
+
+/**
+ *  Header
+ */
+
+.site-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+.site-header .ant-menu-item {
+  font-weight: 700 !important;
+}
+
+.site-header .ant-menu-item-selected {
+  background: transparent !important;
+}
+
+.site-header .ant-menu-item-active {
+  color: #ff7a18 !important;
+  background: hsla(0, 0%, 100%, 0.1) !important;
 }

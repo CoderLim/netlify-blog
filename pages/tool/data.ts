@@ -1,6 +1,7 @@
 const data = [
   {
     title: 'AI 工具',
+    imgSeed: 16,
     children: [
       {
         title: 'Copilot',
@@ -21,6 +22,7 @@ const data = [
   },
   {
     title: '日常工具',
+    imgSeed: 20,
     children: [
       {
         title: 'snipaste',

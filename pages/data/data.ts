@@ -1,6 +1,7 @@
 const data = [
   {
     title: '日常数据',
+    imgSeed: 22,
     children: [
       {
         title: '百度指数',
@@ -27,7 +28,7 @@ const data = [
       {
         title: '微博指数',
         href: '',
-        description: '和上面指数类似，数据是基于新浪微博的',
+        description: '基于新浪微博的数据，查询关键字的趋势',
       },
     ],
   },

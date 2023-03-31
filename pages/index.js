@@ -43,8 +43,11 @@ const App = () => {
   };
 
   return (
-    <Layout className="h-full">
-      <Header className="flex justify-between items-center gap-4">
+    <Layout className="h-full bg-transparent">
+      <Header
+        className="site-header"
+        style={{ background: '#111', borderBottom: '1px solid #676767' }}
+      >
         <SEO
           title="火焱的空间"
           description="这里包含了各种前端/技术咨询和可以办公提效的小工具，欢迎访问"
@@ -64,7 +67,7 @@ const App = () => {
           }
         />
       </Header>
-      <Layout>
+      <Layout className="bg-transparent">
         {/* <Sider width={200} style={{ background: colorBgContainer }}>
           <Menu
             mode="inline"
@@ -74,7 +77,7 @@ const App = () => {
             items={items2}
           />
         </Sider> */}
-        <Layout style={{ padding: '0 24px 24px' }}>
+        <Layout style={{ padding: '0 24px 24px', background: 'transparent' }}>
           {/* <Breadcrumb style={{ margin: '16px 0' }}>
             <Breadcrumb.Item>Home</Breadcrumb.Item>
             <Breadcrumb.Item>List</Breadcrumb.Item>
@@ -85,7 +88,6 @@ const App = () => {
               padding: 24,
               margin: 0,
               minHeight: 280,
-              background: colorBgContainer,
             }}
           >
             {activeMenu === 'home' ? <Home /> : null}

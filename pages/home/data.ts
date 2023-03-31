@@ -1,6 +1,9 @@
-const data = [
+import { SiteGroupData } from '../../types';
+
+const data: SiteGroupData[] = [
   {
     title: '最新资讯',
+    imgSeed: 0,
     children: [
       {
         title: 'HackerNews',
@@ -16,6 +19,7 @@ const data = [
   },
   {
     title: '技术社区',
+    imgSeed: 4,
     children: [
       {
         title: '掘金社区',
@@ -37,6 +41,7 @@ const data = [
   },
   {
     title: '技术博客',
+    imgSeed: 8,
     children: [
       {
         title: '鑫空间，鑫生活',
@@ -62,6 +67,7 @@ const data = [
   },
   {
     title: '技术规范',
+    imgSeed: 12,
     children: [
       {
         title: 'MDN',
