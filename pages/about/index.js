@@ -8,6 +8,7 @@ const About = () => {
         <a
           href="https://juejin.cn/user/720905151979544"
           target="_blank"
+          rel="noreferrer"
           className="text-blue-600"
         >
           掘金主页

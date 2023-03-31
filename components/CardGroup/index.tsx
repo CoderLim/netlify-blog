@@ -25,9 +25,9 @@ export default function CardGroup(props: CardGroupProps) {
           return (
             <Col span={6} key={info.title}>
               <Card
-                title={info.title}
+                title={<span>{info.title}</span>}
                 onClick={() => handleCardClick(info.href)}
-                className="cursor-pointer"
+                className="cursor-pointer hover:text-slate-500"
               >
                 {info.description}
               </Card>
