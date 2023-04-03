@@ -27,13 +27,13 @@ export default function CardGroup(props: CardGroupProps) {
           return (
             <Col span={6} key={info.title}>
               <Card
-                cover={
-                  <img
-                    className="contrast-75 hover:contrast-100"
-                    alt="头图"
-                    src={getSeriesImageURL(index, data.imgSeed)}
-                  />
-                }
+                // cover={
+                //   <img
+                //     className="contrast-75 hover:contrast-100"
+                //     alt="头图"
+                //     src={getSeriesImageURL(index, data.imgSeed)}
+                //   />
+                // }
                 onClick={() => handleCardClick(info.href)}
                 className="cursor-pointer"
                 // style={{ height: 150 }}
