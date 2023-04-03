@@ -22,7 +22,7 @@ export default function CardGroup(props: CardGroupProps) {
         {data.title}
       </Typography.Title>
 
-      <Row gutter={[60, 60]}>
+      <Row gutter={[60, 30]}>
         {data.children.map((info, index) => {
           return (
             <Col span={6} key={info.title}>
