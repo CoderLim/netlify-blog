@@ -30,6 +30,14 @@ body {
   font-family: var(--font-secondary);
 }
 
+.ant-typography {
+  color: #fff !important;
+}
+
+blockquote {
+  border-left-color: rgba(255, 255, 255, 0.66) !important;
+}
+
 /**
  *
  */
