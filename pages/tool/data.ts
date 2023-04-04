@@ -40,6 +40,11 @@ const data = [
         description: '命令行工具，让你在文件系统中自由穿梭',
       },
       {
+        title: 'draw.io',
+        href: 'https://app.diagrams.net/',
+        description: '支持手绘，免费在线「流程图思维导图」',
+      },
+      {
         title: 'Whimsical',
         href: 'https://whimsical.com/',
         description: '免费在线「线框图设计」',
