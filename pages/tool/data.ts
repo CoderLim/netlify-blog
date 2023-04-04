@@ -61,6 +61,17 @@ const data = [
       },
     ],
   },
+  {
+    title: '研发工具',
+    imgSeed: 28,
+    children: [
+      {
+        title: 'oclif',
+        href: 'https://oclif.io/docs/prompting',
+        description: '快速实现你的 cli',
+      },
+    ],
+  },
 ];
 
 export default data;
