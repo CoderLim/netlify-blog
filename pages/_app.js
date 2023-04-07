@@ -6,7 +6,7 @@ import SiteAnalysis from '../components/SiteAnalysis';
 function MyApp({ Component, pageProps }) {
   return (
     <>
-      <SiteAnalysis></SiteAnalysis>
+      {/* <SiteAnalysis></SiteAnalysis> */}
 
       <span className="theme-bejamas" />
       <ConfigProvider
