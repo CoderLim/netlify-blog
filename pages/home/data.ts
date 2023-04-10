@@ -8,7 +8,7 @@ const data: SiteGroupData[] = [
       {
         title: 'HackerNews',
         href: 'https://news.ycombinator.com/',
-        description: '不仅局限于技术，提供了很有价值的信息',
+        description: '科技社区，讨论技术和创新的平台',
       },
       {
         title: 'bestofjs',

@@ -48,6 +48,11 @@ const data = [
         description:
           '创意工作者的社区。讨论编程、设计、硬件、游戏等令人激动的话题。',
       },
+      {
+        title: 'HackerNews',
+        href: 'https://news.ycombinator.com/',
+        description: '科技社区，讨论技术和创新的平台',
+      },
     ],
   },
 ];
