@@ -1,6 +1,17 @@
 const data = [
   {
-    title: '常用数据',
+    title: '研发数据',
+    imgSeed: 22,
+    children: [
+      {
+        title: 'npm trends',
+        href: 'https://npmtrends.com/',
+        description: '比较 npm 包的趋势，比如下载、包大小、github 关注数等',
+      },
+    ],
+  },
+  {
+    title: '产品/关键字数据',
     imgSeed: 22,
     children: [
       {
@@ -24,6 +35,11 @@ const data = [
         href: '',
         description:
           '在抖音中搜索「巨量算数」，可以查看视频数据，还有趋势/用户洞察',
+      },
+      {
+        title: '新红数据',
+        href: '',
+        description: '<微信公众号> 主要是小红书数据',
       },
       {
         title: '微博指数',
