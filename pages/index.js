@@ -7,6 +7,7 @@ import About from './about';
 import LogoImage from '../images/logo.png';
 import Tool from './tool';
 import Data from './data';
+import Earn from './earn';
 
 const { Header, Content, Sider } = Layout;
 
@@ -22,6 +23,10 @@ const topMenuData = [
   {
     key: 'data',
     label: '数据查询',
+  },
+  {
+    key: 'earn',
+    label: '赚点钱',
   },
   {
     key: 'about',
@@ -93,6 +98,7 @@ const App = () => {
             {activeMenu === 'home' ? <Home /> : null}
             {activeMenu === 'tool' ? <Tool /> : null}
             {activeMenu === 'data' ? <Data /> : null}
+            {activeMenu === 'earn' ? <Earn /> : null}
             {activeMenu === 'about' ? <About /> : null}
           </Content>
         </Layout>
