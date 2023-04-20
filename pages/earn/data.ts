@@ -13,6 +13,11 @@ const data = [
         href: 'https://t.co/HiuncgwnYF',
         description: '分享一些创业者的经验',
       },
+      {
+        title: 'journeyman 精华帖',
+        href: 'https://thundering-dinosaur-973.notion.site/JourneymanChina-e7c9bd20b6b544e0aa1e3fba5abac42a',
+        description: 'journeyman 的精华帖，里面包含了作者的解读',
+      },
     ],
   },
 ];

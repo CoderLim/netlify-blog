@@ -48,29 +48,6 @@ const data = [
       },
     ],
   },
-  {
-    title: '需求发现/探索',
-    imgSeed: 28,
-    children: [
-      {
-        title: 'ProductHunt',
-        href: 'https://www.producthunt.com/',
-        description:
-          '产品发现平台，每天都会推荐一批新的产品。您可以浏览其中某个产品或类别的评论区，了解用户对这些产品的看法和反馈。',
-      },
-      {
-        title: 'v2ex',
-        href: 'https://www.v2ex.com/',
-        description:
-          '创意工作者的社区。讨论编程、设计、硬件、游戏等令人激动的话题。',
-      },
-      {
-        title: 'HackerNews',
-        href: 'https://news.ycombinator.com/',
-        description: '科技社区，讨论技术和创新的平台',
-      },
-    ],
-  },
 ];
 
 export default data;
