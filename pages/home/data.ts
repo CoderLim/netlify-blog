@@ -2,13 +2,18 @@ import { SiteGroupData } from '../../types';
 
 const data: SiteGroupData[] = [
   {
-    title: '最新资讯',
+    title: '每日浏览',
     imgSeed: 0,
     children: [
       {
         title: 'HackerNews',
         href: 'https://news.ycombinator.com/',
         description: '科技社区，讨论技术和创新的平台',
+      },
+      {
+        title: 'CssTricks',
+        href: 'https://css-tricks.com/',
+        description: '专注于 CSS 的站点',
       },
       {
         title: 'bestofjs',
@@ -39,6 +44,28 @@ const data: SiteGroupData[] = [
       },
     ],
   },
+  {
+    title: '技术周刊',
+    imgSeed: 0,
+    children: [
+      {
+        title: 'frontender',
+        href: 'https://frontender-ua.medium.com/',
+        description: '有关前端开发的各种文章、教程和新闻',
+      },
+      {
+        title: 'javascript-weekly',
+        href: 'https://javascriptweekly.com/issues',
+        description: 'javascript 相关的周刊',
+      },
+      {
+        title: 'node-weekly',
+        href: 'https://nodeweekly.com/issues',
+        description: 'nodejs 相关的周刊',
+      },
+    ],
+  },
+
   {
     title: '技术博客',
     imgSeed: 8,
