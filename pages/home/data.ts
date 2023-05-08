@@ -86,11 +86,6 @@ const data: SiteGroupData[] = [
         description: '看看有哪些新鲜事',
       },
       {
-        title: 'CSS Trick',
-        href: 'https://css-tricks.com/',
-        description: '专注于 CSS 的平台，内容还不错',
-      },
-      {
         title: 'Chrome 官方博客',
         href: 'https://developer.chrome.com/blog/',
         description: '可以看到 chrome 新发布的特性',
